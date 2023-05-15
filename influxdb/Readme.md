@@ -84,19 +84,32 @@ Interact with the variable: Go back to the dashboard and you should see the vari
 
 FAQS
 
-what happens if we imported 2 different csv files with 2 different schemas
+what happens if we imported 2 different csv files with 2 different schemas?
+
 if you import a CSV file with schema A, and then later import a CSV file with schema B, both CSV files will be stored in the same bucket. The first CSV file will be stored as a measurement with fields and tags based on schema A, while the second CSV file will be stored as a separate measurement with fields and tags based on schema B.
+
+
 What is a measurement in Line Protocol? 
+
 A measurement in Line Protocol is a string that identifies the data that is being stored. It is similar to a table in a relational database.
+
+
 What are tags in Line Protocol? 
 Tags in Line Protocol are key-value pairs that provide metadata about the data being stored. They are used to filter and group data in queries.
+
 What are fields in Line Protocol? 
+
 Fields in Line Protocol are the actual data being stored. They are associated with a measurement and can be of different data types, such as integer, float, and string.
+
 How do you write a Line Protocol record? 
+
 A Line Protocol record consists of a measurement, zero or more tags, zero or more fields, and a timestamp. Here is an example: "measurement,tag1=value1,tag2=value2 field1=1.23,field2=4.56 timestamp".
+
 How do you escape special characters in Line Protocol?
  To escape a special character in Line Protocol, you need to use a backslash () before the character. For example, to include a comma in a field value, you would write ",".
+ 
 Can you use Line Protocol to write data to InfluxDB? 
+
 Yes, Line Protocol is the format used to write data to InfluxDB. You can use the InfluxDB API or a client library, such as the Python InfluxDB library, to write data in Line Protocol format.
 
 
