@@ -56,6 +56,8 @@ to push on to the topic from terminal to topic on the port
 
 ``` .\bin\windows\kafka-console-producer.bat --brocker-list localhost:9092 --topic <topicname> ```
 
+https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/kafkaexporter
+
 
 
 
