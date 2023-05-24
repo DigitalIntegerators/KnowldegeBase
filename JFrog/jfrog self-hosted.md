@@ -5,7 +5,8 @@
 
 ## Download the artifactory from (https://jfrog.com/download-jfrog-platform/) and choose linux
 
-### After the download extract the package and go to the path (/app/bin/)
+### After the download extract the package 
+enter the extracted DIR then go to the path (jfrog/artifactory/app/bin/)
 
 ### Open the terminal and enter the command (./artifactoryctl start)
 
