@@ -1,4 +1,4 @@
-### Installation Guide For jfrog self-hosted server on linux
+# Installation Guide For jfrog self-hosted server on linux
 
 
 
