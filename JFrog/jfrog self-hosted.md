@@ -4,10 +4,11 @@
 ## link(https://www.youtube.com/watch?v=ry20qKqJzys )
 
 ## Download the artifactory from (https://jfrog.com/download-jfrog-platform/) and choose linux on gui 
-## download from terminal (wget https://releases.jfrog.io/artifactory/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/[RELEASE]/jfrog-artifactory-pro-[RELEASE]-linux.tar.gz --no-certificate-check )
+## Download from terminal (wget https://releases.jfrog.io/artifactory/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/[RELEASE]/jfrog-artifactory-pro-[RELEASE]-linux.tar.gz --no-certificate-check )
 
 ### After the download extract the package 
 enter the extracted DIR then go to the path (jfrog/artifactory/app/bin/)
+using ```tar -xvzf <name of the file>```
 
 ### Open the terminal and enter the command (./artifactoryctl start)
 
