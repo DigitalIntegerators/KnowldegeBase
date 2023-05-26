@@ -35,7 +35,7 @@ ip addr
 ```
 ### Get the ip address <BROADCAST,MULTICAST,UP,LOWER_UP> get the ip and the port is 8081 for example (192.12.1.15:8081)
 
-## In case the firewall is blocking the port run : ```sudo ufw status```
+### In case the firewall is blocking the port run : ```sudo ufw status```
 ### Then : ```sudo apt install ufw```
 ### Then : ```sudo ufw allow 8081/tcp```
 ### Then : ```sudo ufw allow 8082/tcp```
