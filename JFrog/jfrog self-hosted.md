@@ -20,12 +20,19 @@ tar -xvzf <name of the file>
 ```
 then go to the path (jfrog/artifactory/app/bin/)
 
-### Open the terminal and enter the command (./artifactoryctl start)
+### Open the terminal and enter the command 
+```
+./artifactoryctl start
+```
+### After the starting run the following command
+```
+./artifactoryctl check
+``` 
 
-### After the starting run the following command(./artifactoryctl check) 
-
-### then the command(ip addr)
-
+### then the command 
+```
+ip addr
+```
 ### Get the ip address <BROADCAST,MULTICAST,UP,LOWER_UP> get the ip and the port is 8081 for example (192.12.1.15:8081)
 
 ## In case the firewall is blocking the port run : ```sudo ufw status```
