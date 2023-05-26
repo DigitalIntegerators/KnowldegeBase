@@ -85,6 +85,9 @@ docker pull 192.168.1.17:8082/dockerlocal/hello-world
 
 
 REFERENCE:
-``` (https://www.youtube.com/watch?v=qdCVimkd9xQ )
+``` 
+https://www.youtube.com/watch?v=qdCVimkd9xQ 
 ```
-``` link(https://www.youtube.com/watch?v=ry20qKqJzys )```
+``` 
+https://www.youtube.com/watch?v=ry20qKqJzys
+```
