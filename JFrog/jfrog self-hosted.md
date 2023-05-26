@@ -1,13 +1,13 @@
-# Installation Guide For jfrog self-hosted server on linux
+## Installation Guide For jfrog self-hosted server on linux
 
 
 
-## Download the artifactory 
+### Download the artifactory 
 ```
 https://jfrog.com/download-jfrog-platform
 ```
 and choose linux
-## Download from terminal 
+### Download from terminal 
 ```
 wget https://releases.jfrog.io/artifactory/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/[RELEASE]/jfrog-artifactory-pro-[RELEASE]-linux.tar.gz --no-certificate-check 
 ```
