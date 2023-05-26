@@ -33,7 +33,7 @@ then go to the path (jfrog/artifactory/app/bin/)
 ```
 ip addr
 ```
-### Get the ip address <BROADCAST,MULTICAST,UP,LOWER_UP> get the ip and the port is 8081 for example (192.12.1.15:8081)
+#### Get the ip address <BROADCAST,MULTICAST,UP,LOWER_UP> get the ip and the port is 8081 for example (192.12.1.15:8081)
 
 ### In case the firewall is blocking the port run : ```sudo ufw status```
 ### Then : ```sudo apt install ufw```
