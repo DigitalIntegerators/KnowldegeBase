@@ -46,7 +46,7 @@ Username: username
 password: token generated OR PASSWORD
 
 ```docker tag image then push it```
-```docker tag <imageid> 192.168.1.17:8081/dockerlocal/hello-world:latest```
+```docker tag <imageid> 192.168.1.17:8082/dockerlocal/hello-world:latest```
 ```docker push 192.168.1.17:8082/dockerlocal/hello-world```
 ```docker pull 192.168.1.17:8082/dockerlocal/hello-world```
 
