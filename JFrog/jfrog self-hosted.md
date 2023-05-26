@@ -48,8 +48,9 @@ password: token generated OR PASSWORD
 
 docker tag image then push it
 
-
-
+```
+docker tag <imageid> <Domain name>/<Repo name>/<image name>
+  ```
 ```
 docker tag <imageid> 192.168.1.17:8082/dockerlocal/hello-world:latest
 ```
