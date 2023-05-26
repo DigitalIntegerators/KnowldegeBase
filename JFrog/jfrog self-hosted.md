@@ -1,14 +1,23 @@
-## Installation Guide For jfrog self-hosted server on linux
+### Installation Guide For jfrog self-hosted server on linux
 
-## link(https://www.youtube.com/watch?v=qdCVimkd9xQ )
-## link(https://www.youtube.com/watch?v=ry20qKqJzys )
 
-## Download the artifactory from (https://jfrog.com/download-jfrog-platform/) and choose linux on gui 
-## Download from terminal (wget https://releases.jfrog.io/artifactory/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/[RELEASE]/jfrog-artifactory-pro-[RELEASE]-linux.tar.gz --no-certificate-check )
+
+## Download the artifactory 
+```
+https://jfrog.com/download-jfrog-platform
+```
+and choose linux
+## Download from terminal 
+```
+wget https://releases.jfrog.io/artifactory/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/[RELEASE]/jfrog-artifactory-pro-[RELEASE]-linux.tar.gz --no-certificate-check 
+```
 
 ### After the download extract the package 
 enter the extracted DIR 
-using ```tar -xvzf <name of the file>```
+using 
+```
+tar -xvzf <name of the file>
+```
 then go to the path (jfrog/artifactory/app/bin/)
 
 ### Open the terminal and enter the command (./artifactoryctl start)
@@ -25,9 +34,15 @@ then go to the path (jfrog/artifactory/app/bin/)
 ## Then : ```sudo ufw allow 8082/tcp```
 ## Last command : ```sudo ufw enable ```
 ## Then the ip should work and open the UI on the browser
-## Initial username: admin 
-##        password:password
-## Get the certificate from (https://jfrog.com/start-free/ ) then in the second page select self-hosted
+```
+ Initial username: admin 
+         password:password
+```
+## Get the certificate from
+```
+https://jfrog.com/start-free 
+``` 
+then in the second page select self-hosted
 ## insert the certificate that was sent via E-mail entered 
 ## now the server is up and running 
 ## create a repo and start push and pull from docker 
@@ -62,4 +77,7 @@ docker pull 192.168.1.17:8082/dockerlocal/hello-world
 ```
 
 
-
+REFERENCE:
+``` (https://www.youtube.com/watch?v=qdCVimkd9xQ )
+```
+``` link(https://www.youtube.com/watch?v=ry20qKqJzys )```
