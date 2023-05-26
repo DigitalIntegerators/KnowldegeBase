@@ -89,9 +89,13 @@ docker pull 192.168.1.17:8082/dockerlocal/hello-world
 
 
 REFERENCE:
+### How to upload from the JFrog GUI
 ``` 
-https://www.youtube.com/watch?v=qdCVimkd9xQ 
+https://jfrog.com/help/r/artifactory-how-to-upload-a-folder-with-its-content-to-artifactory/artifactory-how-to-upload-a-folder-with-its-content-to-artifactory
 ```
 ``` 
 https://www.youtube.com/watch?v=ry20qKqJzys
+```
+``` 
+https://www.youtube.com/watch?v=qdCVimkd9xQ 
 ```
