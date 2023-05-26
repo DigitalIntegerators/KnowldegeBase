@@ -35,7 +35,7 @@ then go to the path (jfrog/artifactory/app/bin/)
 
 ### then the command 
 ```
-ip addr!
+ip addr
 
 ```
 ![Command3](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/da3eac1a-7f4a-4397-b943-dac6b741ea5c)
