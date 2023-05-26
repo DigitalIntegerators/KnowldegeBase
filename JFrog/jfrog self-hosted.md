@@ -24,15 +24,23 @@ then go to the path (jfrog/artifactory/app/bin/)
 ```
 ./artifactoryctl start
 ```
+![command1](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/c41b3fa6-3b33-4f18-8de1-239e6f76fa5d)
+
 ### After the starting run the following command
 ```
 ./artifactoryctl check
 ``` 
+![command2](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/66fcf179-5235-4a53-adbc-3e6e831ad19c)
+
 
 ### then the command 
 ```
-ip addr
+ip addr!
+
 ```
+![Command3](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/da3eac1a-7f4a-4397-b943-dac6b741ea5c)
+
+
 #### Get the ip address <BROADCAST,MULTICAST,UP,LOWER_UP> get the ip and the port is 8081 for example (192.12.1.15:8081)
 
 ### In case the firewall is blocking the port run : ```sudo ufw status```
@@ -41,6 +49,9 @@ ip addr
 ### Then : ```sudo ufw allow 8082/tcp```
 ### Last command : ```sudo ufw enable ```
 ### Then the ip should work and open the UI on the browser
+![login](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/352bd8d6-3705-459e-aec7-5d13fec9de25)
+
+
 ```
  Initial username: admin 
          password:password
