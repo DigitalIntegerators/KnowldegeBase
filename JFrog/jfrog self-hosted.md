@@ -56,7 +56,7 @@ then in the second page select self-hosted
 
 
 
-Important note ➕
+➕Important note ➕
 The server will be not secured(http) abd docker push will be pushing on https and this will make an issue of (TLS unrecognized) so to fix this issue you need to include the server domain in the demon.json for the docker and in docker engine demon on docker desktop. Then restart the machine. 
 (https://docs.docker.com/registry/insecure/ )
 
