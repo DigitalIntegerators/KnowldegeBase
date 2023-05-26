@@ -63,10 +63,13 @@ The server will be not secured(http) abd docker push will be pushing on https an
 ##the login will need to generate token from the jfrog platform from the set me up menu 
 
 Docker commands for
-```docker login 192.168.1.17:8082```
+```
+docker login 192.168.1.17:8082
+```
+```
 Username: username 
 password: token generated OR PASSWORD
-
+```
 
 docker tag image then push it
 
