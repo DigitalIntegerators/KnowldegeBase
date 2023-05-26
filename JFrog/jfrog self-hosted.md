@@ -45,14 +45,14 @@ ip addr
  Initial username: admin 
          password:password
 ```
-## Get the certificate from
+### Get the certificate from
 ```
 https://jfrog.com/start-free 
 ``` 
 then in the second page select self-hosted
-## insert the certificate that was sent via E-mail entered 
-## now the server is up and running 
-## create a repo and start push and pull from docker 
+### insert the certificate that was sent via E-mail entered 
+### now the server is up and running 
+### create a repo and start push and pull from docker 
 
 
 
