@@ -3,7 +3,8 @@
 ## link(https://www.youtube.com/watch?v=qdCVimkd9xQ )
 ## link(https://www.youtube.com/watch?v=ry20qKqJzys )
 
-## Download the artifactory from (https://jfrog.com/download-jfrog-platform/) and choose linux
+## Download the artifactory from (https://jfrog.com/download-jfrog-platform/) and choose linux on gui 
+## download from terminal (wget https://releases.jfrog.io/artifactory/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/[RELEASE]/jfrog-artifactory-pro-[RELEASE]-linux.tar.gz --no-certificate-check )
 
 ### After the download extract the package 
 enter the extracted DIR then go to the path (jfrog/artifactory/app/bin/)
@@ -23,6 +24,10 @@ enter the extracted DIR then go to the path (jfrog/artifactory/app/bin/)
 ## Last command : ```sudo ufw enable ```
 ## Then the ip should work and open the UI on the browser
 ## Initial username: admin password:password
+## Get the certificate from (https://jfrog.com/start-free/ ) then in the second page select self-hosted
+## insert the certificate that was sent via E-mail entered 
+## now the server is up and running 
+## create a repo and start push and pull from docker 
 
 
 
