@@ -2,7 +2,7 @@
 
 
 
-### 1-Download the artifactory 
+### 1- Download the artifactory 
 ```
 https://jfrog.com/download-jfrog-platform
 ```
