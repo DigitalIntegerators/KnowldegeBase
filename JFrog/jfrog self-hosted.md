@@ -2,7 +2,7 @@
 
 
 
-### Download the artifactory 
+### 1-Download the artifactory 
 ```
 https://jfrog.com/download-jfrog-platform
 ```
@@ -12,7 +12,7 @@ and choose linux
 wget https://releases.jfrog.io/artifactory/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/[RELEASE]/jfrog-artifactory-pro-[RELEASE]-linux.tar.gz --no-certificate-check 
 ```
 
-### After the download extract the package 
+### 2- extract the package 
 enter the extracted DIR 
 using 
 ```
@@ -20,19 +20,22 @@ tar -xvzf <name of the file>
 ```
 then go to the path (jfrog/artifactory/app/bin/)
 
+### 3- Start Artifactory
 ### Open the terminal and enter the command 
+
 ```
 ./artifactoryctl start
 ```
 ![command1](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/c41b3fa6-3b33-4f18-8de1-239e6f76fa5d)
 
+### 4- Check Artifactory
 ### After the starting run the following command
 ```
 ./artifactoryctl check
 ``` 
 ![command2](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/66fcf179-5235-4a53-adbc-3e6e831ad19c)
 
-
+### 5- Access Articatory UI
 ### then the command 
 ```
 ip addr
@@ -43,11 +46,16 @@ ip addr
 
 #### Get the ip address <BROADCAST,MULTICAST,UP,LOWER_UP> get the ip and the port is 8081 for example (192.12.1.15:8081)
 
+### 6- Firewall Configuration
+
 ### In case the firewall is blocking the port run : ```sudo ufw status```
 ### Then : ```sudo apt install ufw```
 ### Then : ```sudo ufw allow 8081/tcp```
 ### Then : ```sudo ufw allow 8082/tcp```
 ### Last command : ```sudo ufw enable ```
+
+### 7- Initial Login 
+
 ### Then the ip should work and open the UI on the browser
 ![login](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/352bd8d6-3705-459e-aec7-5d13fec9de25)
 
@@ -73,6 +81,8 @@ The server will be not secured(http) abd docker push will be pushing on https an
 (https://docs.docker.com/registry/insecure/ )
 
 ##the login will need to generate token from the jfrog platform from the set me up menu 
+
+### 8- Docker Integration 
 
 Docker commands for
 ```
