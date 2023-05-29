@@ -8,6 +8,11 @@ https://jfrog.com/download-jfrog-platform
 ```
 and choose linux
 ### Download from terminal 
+
+```
+ wget <Download Link> --no-certificate-check 
+```
+
 ```
 wget https://releases.jfrog.io/artifactory/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/[RELEASE]/jfrog-artifactory-pro-[RELEASE]-linux.tar.gz --no-certificate-check 
 ```
