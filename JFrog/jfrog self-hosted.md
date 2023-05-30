@@ -85,6 +85,14 @@ then in the second page select self-hosted
 The server will be not secured(http) abd docker push will be pushing on https and this will make an issue of (TLS unrecognized) so to fix this issue you need to include the server domain in the demon.json for the docker and in docker engine demon on docker desktop. Then restart the machine. 
 (https://docs.docker.com/registry/insecure/ )
 
+![doc](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/6916fa21-fffd-4125-ab77-a1b8106769ef)
+
+From the Docker documentation 
+
+![eng](https://github.com/DigitalIntegerators/KnowldegeBase/assets/132379090/5bf05f50-aa59-4038-b32f-664cd2526b2f)
+
+In the Docker Engine 
+
 ##the login will need to generate token from the jfrog platform from the set me up menu 
 
 ### 8- Docker Integration 
