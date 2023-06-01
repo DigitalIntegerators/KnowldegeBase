@@ -58,9 +58,9 @@ keytool -import -file ca-cert.pem -alias root -keystore client.truststore.jks
  openssl rsa -in client-key.pem -out client-key.key
 ```
 
-##Edit the properties files:
+## Edit the properties files:
 
-#server.properties
+# server.properties
 
 ```
 listeners=PLAINTEXT://localhost:9092,SSL://localhost:9093
@@ -78,7 +78,7 @@ ssl.protocol=TLSv1.2
 ```
 
 
-#client.properties
+# client.properties
 If the file do not exist create it
 ```
 bootstrap.servers=localhost:9093
